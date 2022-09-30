@@ -1,3 +1,5 @@
-# Learn a Language
+# 学习一门语言
 
-It doesn't matter what language you pick, but it is important to learn at least one. You will be able to use that language write automation scripts. 
+选择哪种语言并不重要，重要的是至少学会一门语言。
+
+您将能够使用该语言编写自动化脚本。

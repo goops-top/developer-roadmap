@@ -25,8 +25,7 @@ export function StickyBanner() {
     >
       <YouTubeLogo style={{ height: '20px', display: 'inline-block', marginRight: '7px' }} />
       <Text as='span' fontWeight={500} fontSize='14px'>
-        <Text as='span'>We now have a YouTube Channel. <Text as='span' d={['none', 'inline']}>Subscribe for the video
-          content.</Text></Text>
+        <Text as='span'>我们开通了一个 YouTube 频道。<Text as='span' d={['none', 'inline']}>点击订阅相关视频内容。</Text></Text>
       </Text>
     </Flex>
   );

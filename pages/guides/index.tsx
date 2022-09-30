@@ -23,13 +23,13 @@ export default function Guides(props: GuidesProps) {
     <Box bg='white' minH='100vh'>
       <GlobalHeader />
       <Helmet
-        title={'Visual Guides'}
-        description={'Succinct graphical explanations to engineering topics.'}
+        title={'可视化 Guides'}
+        description={'和 工程(engineering) 主题相关的简明图解。'}
       />
       <Box mb='60px'>
         <PageHeader
-          title={'Visual Guides'}
-          subtitle={'Succinct graphical explanations to engineering topics.'}
+          title={'可视化 Guides'}
+          subtitle={'和 工程(engineering) 主题相关的简明图解。'}
         />
         <Container maxW='container.md' position='relative'>
           <SimpleGrid columns={[1, 1, 2]} mb='30px' spacing={['10px', '10px', '15px']}>

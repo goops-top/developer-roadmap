@@ -3516,7 +3516,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Understand different OS Concepts"
+                    "text": "理解不同操作系统（OS） 的概念"
                   }
                 }
               ]
@@ -3927,7 +3927,7 @@
                   "y": "50",
                   "properties": {
                     "size": "16",
-                    "text": "Pick any language for automation."
+                    "text": "为了自动化，选择一门语言"
                   }
                 }
               ]
@@ -4595,6 +4595,7 @@
             }
           }
         },
+
         {
           "ID": "4034",
           "typeID": "Canvas",
@@ -4616,9 +4617,10 @@
           "y": "68",
           "properties": {
             "size": "17",
-            "text": "Find the detailed version of this roadmap"
+            "text": "公众号: CloudNativeOps【云原生运维技术】 "
           }
         },
+        
         {
           "ID": "4036",
           "typeID": "Label",
@@ -4629,7 +4631,7 @@
           "y": "96",
           "properties": {
             "size": "17",
-            "text": "along with resources and other roadmaps"
+            "text": "点击下面链接查看其他 roadmaps"
           }
         },
         {
@@ -4645,6 +4647,7 @@
           "properties": {
             "controlName": "ext_link:roadmap.sh"
           },
+          
           "children": {
             "controls": {
               "control": [
@@ -4755,6 +4758,7 @@
             }
           }
         },
+        
         {
           "ID": "4038",
           "typeID": "__group__",
@@ -4838,7 +4842,7 @@
                   "y": "21",
                   "properties": {
                     "size": "16",
-                    "text": "Personal Recommendation / Opinion"
+                    "text": "个人推荐 / 可选项"
                   }
                 },
                 {
@@ -4851,7 +4855,7 @@
                   "y": "118",
                   "properties": {
                     "size": "16",
-                    "text": "I wouldn't recommend"
+                    "text": "我不推荐"
                   }
                 },
                 {
@@ -4881,7 +4885,7 @@
                   "y": "86",
                   "properties": {
                     "size": "16",
-                    "text": "Order in roadmap not strict (Learn anytime)"
+                    "text": "在 roadmap 中不严格要求(可随时学习)"
                   }
                 },
                 {
@@ -4943,7 +4947,7 @@
                   "y": "54",
                   "properties": {
                     "size": "16",
-                    "text": "Alternative Option - Pick this or purple"
+                    "text": "可选项 - 选择该选项或者紫色选项"
                   }
                 },
                 {
@@ -6125,7 +6129,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Learn about Managing Servers"
+                    "text": "学习服务管理（Managing Servers）"
                   }
                 },
                 {
@@ -6137,7 +6141,7 @@
                   "x": "20",
                   "y": "42",
                   "properties": {
-                    "text": "Get some administration knowledge in some OS. Go",
+                    "text": " 学习一些不同 OS 下的系统管理知识。尝试任何 Linux ",
                     "size": "16"
                   }
                 },
@@ -6150,7 +6154,7 @@
                   "x": "24",
                   "y": "66",
                   "properties": {
-                    "text": "with any Linux distro. Pick Ubuntu if you have a little",
+                    "text": "发行版。如果没有相关，Linux 经验的话，",
                     "size": "16"
                   }
                 },
@@ -6163,7 +6167,7 @@
                   "x": "107",
                   "y": "91",
                   "properties": {
-                    "text": "to no experience with Linux.",
+                    "text": " 可以选择 Ubuntu。",
                     "size": "16"
                   }
                 }
@@ -6353,7 +6357,7 @@
                   "x": "28",
                   "y": "12",
                   "properties": {
-                    "text": "Learn to live in Terminal",
+                    "text": "学习在 Terminal 中生存",
                     "size": "17"
                   }
                 }
@@ -6802,7 +6806,7 @@
                   "x": "80",
                   "y": "11",
                   "properties": {
-                    "text": "Learn Bash Scripting",
+                    "text": "学习 Bash Scripting",
                     "size": "17"
                   }
                 },
@@ -11385,7 +11389,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Learn Infrastructure as Code"
+                    "text": "学习 Infrastructure as Code（IaC）"
                   }
                 }
               ]
@@ -12563,7 +12567,7 @@
           "y": "1957",
           "properties": {
             "size": "17",
-            "text": "Container Orchestration",
+            "text": "容器调度和编排管理",
             "bold": "true"
           }
         },
@@ -13070,7 +13074,7 @@
                   "y": "12",
                   "properties": {
                     "size": "17",
-                    "text": "Infrastructure Provisioning"
+                    "text": "Infrastructure 供应商"
                   }
                 }
               ]
@@ -13611,7 +13615,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Learn some CI/CD Tool"
+                    "text": "学习一些 CI/CD Tool"
                   }
                 },
                 {
@@ -14652,7 +14656,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Learn how to monitor software and infrastructure"
+                    "text": "学习如何去监控 software and infrastructure"
                   }
                 }
               ]
@@ -16550,7 +16554,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Cloud Providers"
+                    "text": "Cloud 提供商"
                   }
                 }
               ]
@@ -17621,7 +17625,7 @@
                   "properties": {
                     "bold": "true",
                     "size": "17",
-                    "text": "Cloud Design Patterns"
+                    "text": "Cloud 设计模式"
                   }
                 },
                 {

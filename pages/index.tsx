@@ -34,26 +34,25 @@ export default function Home(props: HomeProps) {
               fontSize={['22px', '22px', '28px']}
               mb={['8px', '8px', '15px']}
             >
-              Hey there! 👋
+              嘿你，你们好啊! 👋
             </Heading>
             <Text fontSize={['14px', '14px', '16px']} mb="10px">
               <Text fontWeight={500} as="span">
-                roadmap.sh
+                https://roadmap.sh
               </Text>{' '}
-              is a community effort to create roadmaps, guides and other
-              educational content to help guide the developers in picking up the
-              path and guide their learnings.
+              是一个努力创建路线图、指南和其他教育内容，以帮助指导开发人员走上正确的道路并指导他们的学习的一个社区。
+              这里是一个中文网站。
             </Text>
           </Box>
 
           <FeaturedRoadmapsList
             roadmaps={roadmaps.filter(roadmap => roadmap.type === 'role')}
-            title={'Role Based' }
+            title={'基于角色' }
           />
 
           <FeaturedRoadmapsList
             roadmaps={roadmaps.filter(roadmap => roadmap.type === 'tool')}
-            title={'Skill Based' }
+            title={'基于技能' }
           />
         </Container>
       </Box>
@@ -66,7 +65,7 @@ export default function Home(props: HomeProps) {
               fontSize={['20px', '20px', '25px']}
               mb="5px"
             >
-              Video Explanations
+              视频解说
             </Heading>
           </Box>
 
@@ -101,7 +100,7 @@ export default function Home(props: HomeProps) {
         <Container maxW="container.md" position="relative">
           <Box pt="40px" mb="20px">
             <Heading color="green.500" fontSize="25px" mb="5px">
-              Guides
+              指导文档
             </Heading>
           </Box>
 

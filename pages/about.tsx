@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Container, Flex, Heading, Image, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Center, Container, Flex, Heading, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GlobalHeader } from '../components/global-header';
 import { OpensourceBanner } from '../components/opensource-banner';
 import { Footer } from '../components/footer';
@@ -18,12 +18,11 @@ function AboutHeader() {
         <Flex alignItems='center'>
           <Image alt={'Kamran'} d={['none', 'none', 'block']} src='/kamran.jpeg' h='170px' rounded='10px' mr='25px' />
           <Box>
-            <Heading as='h1' color='black' fontSize={['35px', '35px', '40px']} fontWeight={700} mb='10px'>Hello, I am
+            <Heading as='h1' color='black' fontSize={['35px', '35px', '40px']} fontWeight={700} mb='10px'>你们好，我是
               Kamran Ahmed
             </Heading>
             <Text fontSize={['15px', '15px', '17px']} color='gray.700' mb='15px'>
-              I created roadmap.sh to help developers find their path if they are confused and help them grow in
-              their career.</Text>
+              我创建了 roadmap.sh 去帮助开发者在困惑时找到他们自己的发展路径，并帮助他们在职业生涯中得到成长。</Text>
 
             <Stack isInline flexDirection={['column', 'column', 'row']} spacing={0} shouldWrapChildren>
               <Button as={Link} bg='blue.500' color='white' size='sm'
@@ -44,7 +43,38 @@ function AboutHeader() {
           </Box>
         </Flex>
       </Container>
+      <Center>-------------------------------------------------------------------------------------------------------</Center>
+      <Container maxW='container.md' position='relative' textAlign='left'>
+        <Flex alignItems='center'>
+          <Image alt={'Kamran'} d={['none', 'none', 'block']} src='/bgbiao.png' h='170px' rounded='10px' mr='25px' />
+          <Box>
+            <Heading as='h1' color='black' fontSize={['35px', '35px', '40px']} fontWeight={700} mb='10px'>嗨，我是
+              BGBiao
+            </Heading>
+            <Text fontSize={['15px', '15px', '17px']} color='gray.700' mb='15px'>
+              CloudNativeOps 公众号作者，roadmap.sh 中文站点的维护者。国内早期的 DevOps，SRE 实践和推广者，目前专注于 CloudNative 领域的运维工作。</Text>
+
+            <Stack isInline flexDirection={['column', 'column', 'row']} spacing={0} shouldWrapChildren>
+              <Button as={Link} bg='blue.500' color='white' size='sm'
+                      mr='10px'
+                      mb={['7px', '7px', 0]}
+                      _hover={{ textDecoration: 'none', bg: 'blue.700' }} href='https://twitter.com/bgbiao'
+                      arget='_blank'>
+                @bgbiao
+              </Button>
+
+              <Button as={Link} bg='green.500' color='white' size='sm'
+                      _hover={{ textDecoration: 'none', bg: 'green.700' }} href='mailto:weichuangxxb@gmail.com'
+                      target='_blank'>
+                weichuangxxb@gmail.com
+              </Button>
+            </Stack>
+
+          </Box>
+        </Flex>
+      </Container>
     </Box>
+    
   );
 }
 

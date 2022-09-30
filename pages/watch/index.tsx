@@ -17,11 +17,11 @@ export default function Watch(props: VideosProps) {
   return (
     <Box bg='white' minH='100vh'>
       <GlobalHeader />
-      <Helmet title='Watch' description='Graphical video demonstrations on development topics' />
+      <Helmet title='Watch' description='关于开发相关主题的图形视频演示' />
       <Box mb='60px'>
         <PageHeader
           title={'Watch'}
-          subtitle={'Graphical video demonstrations on development topics'}
+          subtitle={'关于开发主题的图形视频演示'}
         />
         <Container maxW='container.md' position='relative'>
           <SimpleGrid columns={[1, 1, 2]} mb='30px' spacing={['10px', '10px', '15px']}>
